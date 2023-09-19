@@ -1,9 +1,10 @@
 a = int(input())
 b = int(input())
+i = 1
+res = 1
 
-if b >=0:
-    while b != 0:
-        a*= a
-        b -= 2 
+while i <= b:
+    res *= a
+    i += 1
 
-print(a)
+print(res)
